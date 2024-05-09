@@ -1,5 +1,6 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
+// Created an array named employeeData to store employee data
 let employeeData = []
 
 // Collect employee data
@@ -11,12 +12,18 @@ console.log(lastName)
 const salaryAmount = prompt("Enter salary")
 console.log(salaryAmount)
 
+
+// Created an object containing each variable for the employee
 const uniqueEmployee = {
   firstName:firstName,
   lastName:lastName,
   salaryAmount:salaryAmount
 }
 console.log(uniqueEmployee)
+
+// Created a method to append newly collected data to the end of the array employeeData
+employeeData.push(uniqueEmployee)
+
 const addAnotherEmployee = confirm("Add another employee?")
 console.log(addAnotherEmployee)
   // TODO: Get user input to create and return an array of employee objects
