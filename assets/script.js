@@ -1,6 +1,7 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector("#add-employees-btn");
 // Created an array named employeeData to store employee data
+// Created Seed Data with Chat GPT
 let employeeData = [
   {
     "firstName": "John",
@@ -93,6 +94,8 @@ const displayAverageSalary = function (employeesArray) {
 
 // Select a random employee
 const getRandomEmployee = function (employeesArray) {
+  const randomEmployee = employeesArray[Math.round(Math.random()*employeesArray.length-1)]
+  console.log('randomEmployee ', randomEmployee)
   // TODO: Select and display a random employee
 };
 
