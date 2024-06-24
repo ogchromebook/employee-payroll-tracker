@@ -10,7 +10,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-1. 
+1. Open Github pages link here and try it out for yourself! https://ogchromebook.github.io/employee-payroll-tracker/
 
 ## Credits
 
